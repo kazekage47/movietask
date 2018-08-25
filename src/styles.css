@@ -1,0 +1,123 @@
+/* You can add global styles to this file, and also import other style files */
+.jumbotron {
+    position: fixed;
+    z-index : -1;  
+    width: 100%;
+}
+
+.title {
+    margin-top: 5%;
+}
+.cardContainer {
+    border: 2px #cccccc solid;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    float: left;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    
+}
+
+.cardContainer:hover {
+    box-shadow: 3px 3px 3px 0px #dddddd;
+    background-color: #99cccc;
+    border: 2px #666 solid;
+    
+    /* background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0)) !important; */
+}
+
+.next,.back {
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    float: left;
+}
+
+.cardTitle {
+    /*background-color: #00a100;*/
+    font-family: fantasy;
+    margin-top: 140px;
+    color: white;
+    font-weight: 0;
+    text-align: center;
+	padding-top: 25px;
+    padding-bottom: 10px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+  justify-content: center;
+}
+
+.cardText {
+    align-self: center;
+}
+
+.saphron-icon {
+    color: #ffb500;
+    margin-right: 3px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+input[type="number"] {
+    margin-left: 10px;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    padding: 0;
+    background: none;
+    color: white;
+    font-size: 15px;
+
+    font-weight: bold;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    cursor: default;
+  }
+  input[type="number"]::-webkit-textfield-decoration-container {
+    display: inline-flex;
+    cursor: pointer;
+  }
+  input[type="number"]::-webkit-textfield-decoration-container:before, input[type="number"]::-webkit-textfield-decoration-container:after {
+    position: absolute;
+    background: rgba(0,0,0, 0.2);
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 0;
+    text-align: center;
+  }
+  input[type="number"]::-webkit-textfield-decoration-container:before {
+    content: '-';
+    left: 0;
+    line-height: 22px;
+  }
+  input[type="number"]::-webkit-textfield-decoration-container:after {
+    content: '+';
+    right: 0;
+    line-height: 22px;
+  }
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    cursor: pointer;
+    width: 25px;
+    top: 37.5px;
+    left: 43.75px;
+    z-index: 1;
+  }
+  

@@ -1,0 +1,15 @@
+﻿<h1 class="title">Hi {{currentUser.fullName}}!</h1>  
+    <div>
+      <p>Click on the right part of the rating number to increase, and left part to decrease the rating value.</p>
+      <span>Sort By- </span>
+      <select class="title" id="sort">
+        <option value="0">Alphabet</option>
+        <option value="1">Year</option>
+        <option value="2">Rating</option>
+      </select>
+      <a class="title" style="float: right; margin-right: 10px;" [routerLink]="['/login']">Logout</a>
+    </div>
+    <br>
+    <div id="movies">
+    </div>
+<div class="next"><a id="back"  style="bottom:0px; margin-right:40px;">< Prev</a><a id="next">Next ></a></div>
